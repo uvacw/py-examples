@@ -1,1 +1,2 @@
 In this repo, we share python scripts and snippets for teaching and research in communication science. More to come soon. 
+The example program I inserted here (download20130805.py) reads a list of URLs, downloads them, strips non-necessary elements, counts how often certain expressions are used on these webpages, saves the pages, and puts the output in a table. This example actually has been used by a student to collect data for her master thesis.
