@@ -32,8 +32,10 @@ class CsvUnicodeReader(object):
         row = self.reader.next()
         return [unicode(s, "utf-8") for s in row]
     def __iter__(self):
+<<<<<<< HEAD
         return self
-
+=======
+        return self
 class TsvUnicodeReader(object):
     def __init__(self, f, dialect=csv.excel_tab, encoding="utf-8", **kwargs):
         f = UTF8Recoder(f, encoding)
@@ -43,3 +45,4 @@ class TsvUnicodeReader(object):
         return [unicode(s, "utf-8") for s in row]
     def __iter__(self):
         return self
+>>>>>>> 8d9141e91821948b3451253305c76c987f8b1f4b
